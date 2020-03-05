@@ -16,6 +16,7 @@ def find_max_value(array)
   # Add your solution here
   new_array = array.sort
   max_value = new_array.pop
+  max_value
 end
 
 def find_min_value(array)
