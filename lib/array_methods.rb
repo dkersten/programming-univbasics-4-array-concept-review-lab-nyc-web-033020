@@ -21,4 +21,7 @@ end
 
 def find_min_value(array)
   # Add your solution here
+  new_array = array.sort
+  min_value = new_array.shift
+  min_value
 end
